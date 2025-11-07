@@ -8,6 +8,27 @@
     font-family: "Poppins", sans-serif;
 }
 
+.btn {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(216, 0, 0);
+    padding: 0.25rem 1.5rem;
+    border: 1px solid rgba(216, 0, 0, 50%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    background-color: rgb(236, 0, 0);
+}
+
+.btn:active{
+    transform: scale(0.9);
+    background-color: rgb(236, 0, 0);
+}
+
 .nav {
     position: fixed;
     top: 0;
