@@ -81,3 +81,23 @@
     max-width: 1440px;
     min-height: 100vh;
 }
+
+.welcome {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome__heading{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;;
+}
+
+.welcome__paragraph{
+    max-width: 100ch;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
